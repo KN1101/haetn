@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>해 뜨는 집</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" data-go="top">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 19a11 11 0 0 1 22 0Z" fill="var(--sun)"/><path d="M2 23c3 0 3-2 6-2s3 2 6 2 3-2 6-2 3 2 6 2 3-2 6-2" fill="none" stroke="var(--sea)" stroke-width="2.4" stroke-linecap="round"/><path d="M2 28c3 0 3-2 6-2s3 2 6 2 3-2 6-2 3 2 6 2 3-2 6-2" fill="none" stroke="var(--sea)" stroke-width="2.4" stroke-linecap="round" opacity=".55"/></svg>
+      해 뜨는 집
+    </a>
+    <nav aria-label="바로가기">
+      <a href="#guide" data-go="guide">안내</a>
+      <a href="#apply" data-go="apply">신청하기</a>
+      <a href="#kanya" data-go="kanya">카냐</a>
+      <a href="#roster" data-view="roster">예약자 명단</a>
+    </nav>
+  </div>
+</header>
+
+<div id="top"></div>
+
+<main id="home">
+  <section class="hero">
+    <img src="/images/shop.jpg" alt="노을 지는 물가에 선 해 뜨는 집. 나무 데크 앞에 잠수복과 스노클 장비가 걸려 있다">
+    <div class="wrap">
+      <p class="kicker">마루멜 · 바다 앞 작은 가게</p>
+      <h1>바다 앞에서, 더 깊은 숨을.</h1>
+      <p class="lead">프리다이빙, 서핑, 스노클링 투어, 장비 대여. 물이 처음이어도, 조금 무서워도 괜찮아요. 카냐가 천천히 알려드려요.</p>
+      <a class="btn" href="#apply" data-go="apply">신청하러 가기</a>
+    </div>
+  </section>
+
+  <section class="menu wrap" aria-label="이용 메뉴">
+    <ul>
+      <li><button type="button" data-tab-go="class">
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="20" cy="11" r="5"/><path d="M6 24c4 0 4-3 7-3s4 3 7 3 4-3 7-3 4 3 7 3"/><path d="M6 32c4 0 4-3 7-3s4 3 7 3 4-3 7-3 4 3 7 3" opacity=".55"/></svg>
+        <b>강습 신청</b><span>물 적응 · 스노클링 · 입문 / 고급 프리다이빙 · 서핑 · 수중 안전 교육</span></button></li>
+      <li><button type="button" data-tab-go="rental">
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 15h26v8a5 5 0 0 1-5 5h-4l-4-4-4 4h-4a5 5 0 0 1-5-5Z"/><path d="M7 19H3m34 0h-4"/></svg>
+        <b>장비 대여</b><span>마스크 · 스노클 · 오리발 · 구명조끼 · 래시가드 · 서프보드</span></button></li>
+      <li><button type="button" data-tab-go="tour">
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M9 24a11 11 0 0 1 22 0"/><path d="M20 6v4M8 12l3 3M32 12l-3 3"/><path d="M5 30c4 0 4-3 7.5-3s4 3 7.5 3 4-3 7.5-3 4 3 7.5 3"/></svg>
+        <b>체험 신청</b><span>얕은 곳의 불가사리 마을부터 깊은 곳의 고래 노래까지, 바다를 둘러보는 스노클링 투어</span></button></li>
+      <li><button type="button" data-view="roster">
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="6" width="22" height="28" rx="3"/><path d="M14 14h12M14 20h12M14 26h7"/></svg>
+        <b>예약자 명단</b><span>누가 예약했는지 확인해요</span></button></li>
+    </ul>
+  </section>
+
+  <section class="info wrap" id="guide">
+    <div>
+      <h2>해 뜨는 집이에요</h2>
+      <p>바다 앞 물가의 작은 가게예요. 헤엄이 서툰 육지 주민도, 물이 처음인 조류 주민도, 물속에서 더 잘 놀고 싶은 수생계 주민도 모두 환영해요.</p>
+      <p>종족마다 몸이 다르니까 수업도 장비도 몸에 맞게 골라 드려요. 소수 정원으로 천천히 진행해요.</p>
+    </div>
+    <ul class="rules">
+      <li><b>운영시간</b><span>10:00 ~ 17:00 <small>(점심 12:00 ~ 13:00)</small></span></li>
+      <li><b>겨울철</b><span>11:00 ~ 16:00 단축 운영 <small>(12월 ~ 2월)</small></span></li>
+      <li><b>휴무</b><span>매주 수요일</span></li>
+      <li><b>안전 규칙</b><span>2인 1조가 원칙이고, 장비 점검은 꼭 같이 해요. 컨디션이나 물 상태가 나쁜 날, 비 오는 날은 쉴 수 있어요.</span></li>
+    </ul>
+  </section>
+
+  <section class="apply wrap" id="apply">
+    <h2>신청하기</h2>
+    <div class="notice">
+      <b>예약은 반드시 최소 2일 전에 신청해 주세요.</b>
+      <small id="earliest"></small>
+      <small>예약하기를 누르면 예약자 명단에 바로 올라가요. 카냐가 확인하면 '확정'으로 바뀌어요.</small>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="신청 종류">
+      <button type="button" role="tab" id="tab-class" data-tab="class" aria-selected="true" aria-controls="form-class">강습 신청</button>
+      <button type="button" role="tab" id="tab-rental" data-tab="rental" aria-selected="false" aria-controls="form-rental">장비 대여</button>
+      <button type="button" role="tab" id="tab-tour" data-tab="tour" aria-selected="false" aria-controls="form-tour">체험 신청</button>
+      <button type="button" class="tab-roster" data-view="roster">예약자 명단 확인하기</button>
+    </div>
+
+    <!-- 강습 -->
+    <form class="panel" id="form-class" data-type="class" novalidate aria-labelledby="tab-class">
+      <div class="grid">
+        <label class="field"><span>이름(성명)<i class="req">*</i></span><input type="text" id="c-name" name="name" maxlength="20" autocomplete="off"></label>
+        <label class="field"><span>종족<i class="req">*</i></span><input type="text" id="c-species" name="species" maxlength="20" placeholder="예: 고양이 수인" autocomplete="off"></label>
+        <label class="field"><span>강습 코스<i class="req">*</i></span><select id="c-course" name="course"></select></label>
+        <label class="field"><span>희망 날짜<i class="req">*</i></span><input type="date" id="c-date" name="date"></label>
+        <label class="field"><span>희망 시간<i class="req">*</i></span><select id="c-slot" name="slot"></select></label>
+        <fieldset class="field" data-group="learned"><legend class="lab">수영을 배운 적이 있나요?<i class="req">*</i></legend>
+          <div class="pills"><label class="pill"><input type="radio" name="learned" value="있어요"> 있어요</label><label class="pill"><input type="radio" name="learned" value="없어요"> 없어요</label></div></fieldset>
+        <fieldset class="field full" data-group="level"><legend class="lab">본인 수영 실력은 어느 정도인가요?<i class="req">*</i></legend>
+          <div class="pills"><label class="pill"><input type="radio" name="level" value="상"> 상 <small>자신 있어요</small></label><label class="pill"><input type="radio" name="level" value="중"> 중 <small>어느 정도 해요</small></label><label class="pill"><input type="radio" name="level" value="하"> 하 <small>서툴러요</small></label></div></fieldset>
+        <label class="field full"><span>기타 사항<i class="req">*</i></span><textarea id="c-note" name="note" maxlength="300" placeholder="물 공포증이 있는지, 몸 구조상 알려둘 점 등을 적어 주세요. 없으면 '없음'이라고 적어 주세요."></textarea></label>
+      </div>
+      <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <p class="err" role="alert"></p>
+      <div class="actions"><button class="btn" type="submit">예약하기</button></div>
+    </form>
+
+    <!-- 장비 대여 -->
+    <form class="panel" id="form-rental" data-type="rental" novalidate hidden aria-labelledby="tab-rental">
+      <div class="grid">
+        <label class="field"><span>이름(성명)<i class="req">*</i></span><input type="text" id="r-name" name="name" maxlength="20" autocomplete="off"></label>
+        <label class="field"><span>대여 희망 날짜<i class="req">*</i></span><input type="date" id="r-date" name="date"></label>
+        <fieldset class="field full" data-group="items"><legend class="lab">빌려갈 품목<i class="req">*</i></legend><div class="pills" id="r-items"></div></fieldset>
+        <label class="field full"><span>사이즈<i class="opt">필요하면 적어 주세요</i></span><input type="text" id="r-size" name="size" maxlength="80" placeholder="예: 오리발 250, 래시가드 M" autocomplete="off"></label>
+      </div>
+      <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <p class="err" role="alert"></p>
+      <div class="actions"><button class="btn" type="submit">예약하기</button></div>
+    </form>
+
+    <!-- 체험 -->
+    <form class="panel" id="form-tour" data-type="tour" novalidate hidden aria-labelledby="tab-tour">
+      <div class="grid">
+        <label class="field"><span>이름(성명)<i class="req">*</i></span><input type="text" id="t-name" name="name" maxlength="20" autocomplete="off"></label>
+        <label class="field"><span>종족<i class="req">*</i></span><input type="text" id="t-species" name="species" maxlength="20" placeholder="예: 고양이 수인" autocomplete="off"></label>
+        <label class="field"><span>체험 코스<i class="req">*</i></span><select id="t-course" name="course"></select><small class="hint" id="t-hint"></small></label>
+        <label class="field"><span>희망 날짜<i class="req">*</i></span><input type="date" id="t-date" name="date"></label>
+        <label class="field"><span>희망 시간<i class="req">*</i></span><select id="t-slot" name="slot"></select></label>
+        <fieldset class="field" data-group="learned"><legend class="lab">수영을 배운 적이 있나요?<i class="req">*</i></legend>
+          <div class="pills"><label class="pill"><input type="radio" name="learned" value="있어요"> 있어요</label><label class="pill"><input type="radio" name="learned" value="없어요"> 없어요</label></div></fieldset>
+        <fieldset class="field full" data-group="level"><legend class="lab">본인 수영 실력은 어느 정도인가요?<i class="req">*</i></legend>
+          <div class="pills"><label class="pill"><input type="radio" name="level" value="상"> 상 <small>자신 있어요</small></label><label class="pill"><input type="radio" name="level" value="중"> 중 <small>어느 정도 해요</small></label><label class="pill"><input type="radio" name="level" value="하"> 하 <small>서툴러요</small></label></div></fieldset>
+        <label class="field full"><span>기타 사항<i class="req">*</i></span><textarea id="t-note" name="note" maxlength="300" placeholder="물 공포증이 있는지, 몸 구조상 알려둘 점 등을 적어 주세요. 없으면 '없음'이라고 적어 주세요."></textarea></label>
+      </div>
+      <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <p class="err" role="alert"></p>
+      <div class="actions"><button class="btn" type="submit">예약하기</button></div>
+    </form>
+
+    <section class="result" id="result" hidden aria-live="polite">
+      <h3>예약이 완료되었어요!</h3>
+      <p class="steps">예약번호 <b id="res-code"></b><br>예약자 명단에 올라갔어요. 카냐가 확인하면 '확정'으로 바뀌어요.</p>
+      <div class="actions">
+        <button class="btn" type="button" id="to-roster">예약자 명단 보기</button>
+        <button class="btn ghost" type="button" id="again">하나 더 예약하기</button>
+      </div>
+    </section>
+  </section>
+
+  <section class="kanya wrap" id="kanya">
+    <img src="/images/kanya.jpg" alt="물방울이 맺힌 머리카락으로 환하게 웃는 카냐" width="560" height="818">
+    <div>
+      <h2>카냐 <small>물뱀 수인 · 29세</small></h2>
+      <dl class="profile">
+        <div><dt>직업</dt><dd>프리다이빙 · 스노클링 · 서핑 강사<small>해 뜨는 집 운영</small></dd></div>
+        <div><dt>자격</dt><dd><ul class="certs"><li>프리다이빙 강사 자격</li><li>스노클링 지도자 자격</li><li>서핑 강사 자격</li><li>수상 인명구조원</li><li>응급처치 · 심폐소생술(CPR) 수료</li></ul></dd></div>
+        <div><dt>담당 수업</dt><dd><ul class="certs"><li>물 적응 · 물 공포 완화</li><li>스노클링</li><li>입문 / 고급 프리다이빙</li><li>서핑</li><li>수중 안전 교육</li><li>장비 대여</li></ul></dd></div>
+      </dl>
+      <blockquote>
+        <p class="say">“어서 와요~! 오늘 물 상태 완전 좋아! 같이 들어가볼래요?”</p>
+      </blockquote>
+    </div>
+  </section>
+</main>
+
+<main id="roster-view" class="roster wrap" hidden>
+  <a class="back" href="#top" data-go="top" data-view="home">← 가게로 돌아가기</a>
+  <h1>예약자 명단</h1>
+  <p class="sub">예약하면 여기에 바로 올라와요. 카냐가 확인하면 <b>확정</b>으로 바뀌어요.</p>
+
+  <div class="bar">
+    <div class="seg" id="seg" role="group" aria-label="종류별 보기">
+      <button type="button" data-f="" aria-pressed="true">전체</button>
+      <button type="button" data-f="class" aria-pressed="false">강습</button>
+      <button type="button" data-f="rental" aria-pressed="false">대여</button>
+      <button type="button" data-f="tour" aria-pressed="false">체험</button>
+    </div>
+    <div class="staff-tools"><span class="count" id="count"></span><button class="link" type="button" id="refresh">새로고침</button></div>
+  </div>
+  <p class="msg bad" id="load-err" hidden>명단을 불러오지 못했어요. 잠시 후 새로고침해 주세요.</p>
+  <ul class="list" id="list"></ul>
+  <div class="empty" id="empty" hidden><b>아직 예약이 없어요</b>첫 예약을 기다리고 있어요.</div>
+
+  <details class="staff">
+    <summary>카냐 전용</summary>
+    <div id="staff-login">
+      <form id="login-form">
+        <input type="password" id="pw" placeholder="비밀번호" autocomplete="current-password" aria-label="카냐 비밀번호" required>
+        <button class="btn sm" type="submit">로그인</button>
+      </form>
+      <p class="msg" id="login-msg" role="alert"></p>
+    </div>
+    <div id="staff-tools" class="staff-tools" hidden>
+      <span>로그인됨 · 상태 변경, 삭제, 기타 사항 확인이 가능해요.</span>
+      <button class="btn ghost sm" type="button" id="csv">CSV로 저장</button>
+      <button class="link" type="button" id="logout">로그아웃</button>
+    </div>
+  </details>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="where"><b>해 뜨는 집</b><address>마루멜 해안로 8길</address></div>
+  </div>
+</footer>
+
+
+<script src="/app.js"></script>
+</body>
+</html>

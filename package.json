@@ -1,0 +1,11 @@
+{
+  "name": "haetneun-jip-netlify",
+  "version": "3.0.0",
+  "private": true,
+  "description": "해 뜨는 집 예약 사이트 (Netlify Functions + Blobs)",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.4"
+  }
+}
